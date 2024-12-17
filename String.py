@@ -50,7 +50,7 @@ print(str10)
 #11. Splitting strings with split()
 print('https:\www.google.com\\Hello World')
 str11='https:\\www.google.com\\Hello World'
-str12=re.split(r'[\\]',str11)
+str12=re.split(r'\\',str11)
 print(str12)
 #12. Converting integer objects to Strings
 intObject=12
